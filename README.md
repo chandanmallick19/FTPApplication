@@ -17,7 +17,7 @@ A lightweight FTP server implementation for Android devices that allows file tra
 
 ## Installation
 
-\`\`\`bash
+```bash
 # Clone the repository
 git clone https://github.com/chandan19/FTPApplication.git
 
