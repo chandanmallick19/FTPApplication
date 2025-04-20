@@ -4,6 +4,13 @@
 A lightweight FTP server implementation for Android devices that allows file transfer between your phone and computer over the same WiFi network.
 ```
 
+## Download
+
+```bash
+# Download the latest APK
+https://github.com/chandanmallick19/FTPApplication/blob/master/app/release/app-release.apk
+```
+
 ## Features
 
 ```diff
