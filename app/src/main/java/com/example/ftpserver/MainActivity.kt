@@ -80,8 +80,13 @@ class MainActivity : AppCompatActivity() {
         if (isServerRunning) return
 
         try {
+            val username = binding.usernameEditText.text?.toString()?.ifBlank { "android" } ?: "android"
+            val password = binding.passwordEditText.text?.toString()?.ifBlank { "password" } ?: "password"
+
             val serviceIntent = Intent(this, FTPServerService::class.java).apply {
                 putExtra("PORT", ftpPort)
+                putExtra("USERNAME", username)
+                putExtra("PASSWORD", password)
             }
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
