@@ -1,19 +1,19 @@
 # FTP Server for Android
 
-\`\`\`plaintext
+```plaintext
 A lightweight FTP server implementation for Android devices that allows file transfer between your phone and computer over the same WiFi network.
-\`\`\`
+```
 
 ## Features
 
-\`\`\`diff
+```diff
 + 📁 Access phone files from any FTP client
 + 🔒 Basic username/password authentication 
 + 🔄 Supports file uploads and downloads
 + 🌐 Works on local WiFi networks
 + 🔔 Persistent notification while server is running
 + ⚡ Auto-detects device IP address
-\`\`\`
+```
 
 ## Installation
 
@@ -28,7 +28,7 @@ git clone https://github.com/chandan19/FTPApplication.git
 
 ## Usage
 
-'''
+'''python
 1. Launch the app on your Android device
 2. Connect both devices to same WiFi network
 3. Note the IP and port displayed
